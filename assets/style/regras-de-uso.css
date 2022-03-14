@@ -1,0 +1,29 @@
+.header {
+  background-color: white;
+}
+
+.containerRegras {
+  background-color: #F5F5F5;
+  padding: 3vw 15vw;
+}
+
+.titleUse {
+  font-size: 1.5vw;
+}
+
+.containerDiv {
+  margin: 2vw 0;
+}
+
+.containerDiv h3 {
+  font-size: 1.1vw;
+}
+
+.containerDiv p {
+  margin-top: 0.3vw;
+  font-size: 1vw;
+}
+
+.atencao {
+  font-size: 1vw;
+}

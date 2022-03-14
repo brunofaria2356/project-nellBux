@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.targBlue {
+  background-color: darkblue;
+  height: 4vw;
+  width: 100%;
+}
+
+.header {
+  align-items: center;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 15vw;
+  position: fixed;
+  height: 5vw;
+  width: 100%;
+  z-index: 1;
+  scrollbar-color: black;
+}
+
+.logo {
+  width: 6vw;
+}
+
+.containerNav {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 45vw;
+}
+
+.link {
+  font-size: 0.9vw;
+  font-weight: 700;
+  text-decoration: none;
+  color: #020202;
+}
+
+.btnGetIn {
+  background-color: #F3992E;
+  border-radius: 1vw;
+  color: white;
+  font-weight: 800;
+  padding: 0.5vw 1vw;
+}
+
+.contain {
+  top: 5vw;
+  position: relative;
+}
+
+.containerIndex {
+  background-color: #e4e4e4;
+}
+
+/* hero */
+
+.containerHero {
+  background-image: url('../images/MaskGroup.png');
+  background-size: cover;
+  background-position: center;
+  height: 15vw;
+}
+
+.containerLink {
+  background-color: #F3992E;
+  text-align: center;
+  padding: 1.5vw;
+}
+
+.linkHero {
+  font-size: 2vw;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+/* section one */
+
+.containerSectionOne {
+  display: flex;
+  justify-content: center;
+  padding: 7vw;
+}
+
+.containerTitleOneSection {
+  margin: auto 0;
+  width: 35vw;
+}
+
+.SectionOneTitle {
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+
+.SectionOnePragraph {
+  font-size: 1.3vw;
+  width: 27vw;
+}
+
+.sectionOneImg {
+  width: 30vw;
+}
+
+/* section two */
+
+.containerSectionTwo {
+  text-align: center;
+}
+
+.titleSectionTwo {
+  font-size: 2vw;
+  margin-bottom: 1vw;
+}
+
+.subTitleSectionTwo {
+  font-size: 1vw;
+  margin-bottom: 2vw;
+}
+
+.containerCards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 0.5vw;
+  box-shadow: 0vw 0vw 0.5vw 0vw rgba(0,0,0,0.17);
+  padding: 0 2vw;
+  margin: 0.1vw 1.5vw 2vw;
+  height: 33vw;
+  width: 20vw;
+}
+
+.cardBlue {
+  margin-top: 0;
+}
+
+.card h3 {
+  margin: 3vw 0 0;
+  font-size: 2vw;
+}
+
+.paragraph {
+  font-size: 1vw;
+  font-weight: 600;
+  color: #717171;
+}
+
+.marginCenter {
+  margin: 0.7vw auto;
+}
+
+
+
+.text {
+  color: #717171;
+}
+
+.btnCard {
+  align-items: center;
+  background-color: #5283FF;
+  border-radius: 0.3vw;
+  color: white;
+  font-size: 1vw;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  height: 2vw;
+  margin: auto;
+  width: 10vw;
+}
+
+.price {
+  color: #FDD101;
+}
+
+.darkBlue img {
+  width: 8vw;
+}
+
+.darkBlue {
+  background-color: #375398;
+}
+
+.darkBlue h3 {
+  margin-top: 1vw;
+}
+
+.btnInvest{
+  align-items: center;
+  background-color: #5283FF;
+  border: none;
+  border-radius: 0.5vw;
+  color: white;
+  display: grid;
+  margin: 2vw auto;
+  font-size: 1vw;
+  font-weight: 700;
+  height: 2vw;
+  width: 10vw;
+}
+
+.btnDarkBlue {
+  background-color: white;
+  color: #375398;
+}
+
+.backGroudWhite {
+  background-color: white;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.checkContent {
+  align-items: center;
+  display: flex;
+  margin: 1vw 0;
+  text-align: left;
+}
+
+.checkContent img {
+  margin-right: 0.3vw;
+  height: 1vw;
+  width: 1vw;
+}
+
+.marginTop {
+  margin-top: 1.8vw;
+}
+
+
+/* section tree */
+
+.containerVideo {
+  display: grid;
+  justify-items: center;
+  padding: 8vw;
+}
+
+.titleVideo {
+  margin-bottom: 2vw;
+  font-size: 3vw;
+  font-weight: 800;
+}
+.player {
+  height: 30vw;
+  width: 61vw;
+  margin-bottom: 2vw;
+}
+
+.pragraphVideo {
+  text-align: center;
+  width: 46vw;
+}

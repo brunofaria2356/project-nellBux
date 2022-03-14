@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  width: 100vw;
+}
+
+.containerHeroLogin {
+  height: 100vh;
+  width: 40vw;
+}
+
+.heroLogin {
+  background-image: url(../images/Group\ 133.png);
+  background-size: cover;
+  height: 100%;
+}
+
+.containerImg {
+  display: flex;
+  justify-content: right;
+  height: 20%;
+}
+
+.heroImg {
+  padding: 2vw;
+  height: 8vw;
+  width: 8vw;
+}
+
+.titleHero {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.titleHero h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 3vw;
+  text-align: end;
+}
+
+.titleHero p {
+  color: white;
+  font-size: 1.5vw;
+}
+
+.containerLogin {
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.containerContent {
+  width: 60vw;
+  display: grid;
+  justify-content: center;
+}
+
+.ImgLogo {
+  width: 8vw;
+}
+
+.marginBotton {
+  margin-bottom: 1vw;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.titleLogin {
+  color: #5283FF;
+  font-size: 3vw;
+}
+
+.textLeft {
+  border-radius: 0.3vw;
+  color: #a0a0a080;
+  border: 0.1vw solid #a0a0a080;
+  text-align: left;
+  font-size: 1vw;
+}
+
+.color {
+  color: #a0a0a080;
+}
+
+legend {
+  margin-left: 0.5vw;
+}
+
+fieldset {
+  display: flex;
+  height: 3vw;
+  width: 25vw;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+}
+
+.img {
+  height: 1vw;
+  margin-right: 1vw;
+  width: 1vw;
+}
+
+.input {
+  border: none;
+  border-radius: 0.3vw;
+  height: 3vh;
+  font-size: 0.8vw;
+  padding: 0.8vw;
+  width: 100%;
+}
+
+.input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.textDecoration {
+  color: blue;
+  text-decoration: none;
+}
+
+.font {
+  font-size: 0.7vw;
+}
+
+.btnLogin {
+  border: none;
+  border-radius: 0.5vw;
+  background-color: #F3992E;
+  color: white;
+  padding: 0.8vw 5.6vw;
+  font-size: 1vw;
+  font-weight: 600;
+}
