@@ -42,6 +42,14 @@ input[type=radio] {
   display: none;
 }
 
+.greeen {
+  color: #219653;
+  background-color: #DCEFDB;
+  padding: 1vw 2vw;
+  text-align: center;
+  width: 30vw;
+}
+
 .label:before {
   content: "";
     display: inline-block;
