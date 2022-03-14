@@ -16,13 +16,21 @@ function checke() {
     contentTicket.classList.add("containerPayGreen");
     contentPix.classList.remove("containerPayGreen");
     contentCard.classList.remove("containerPayGreen");
-    console.log("boconsto");
+    console.log("Boleto");
   } if(card.checked === true) {
     contentCard.classList.add("containerPayGreen");
     contentTicket.classList.remove("containerPayGreen");
     contentPix.classList.remove("containerPayGreen");
     console.log("card");
   }
+}
+
+
+function get() {
+  let getValue = document.getElementById("value");
+  let texto = getValue.value;
+
+  return document.getElementById("p").innerHTML = parseFloat(texto)
 }
 
 window.onload = checke()

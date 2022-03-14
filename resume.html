@@ -30,7 +30,7 @@
   
             <div class="space display priceResumeBorder">
               <p class="bakcgroundBRL">BRL</p>
-              <input id="value" class="widthValue" type="number" placeholder="100,00">
+              <input id="value" onchange="get()" class="widthValue" type="number" placeholder="100,00" value="100.00">
             </div>
   
             <div id="contentPix" class="containerPay ">
@@ -83,8 +83,9 @@
               <img class="widImg" src="assets/images/Group 445.png" alt="">
               <p class="fonsizeTitle marlef">Você está investindo: <span class="fonsize">com duração de 30 dias</span></p>
             </div>
-            <div>
-              <p>R$ 100,00</p>
+            <div style="display: flex;">
+              <p>R$</p>
+              <p id="p">100,00</p>
             </div>
           </div>
   
@@ -93,8 +94,9 @@
               <img class="widImg" src="assets/images/Group 445.png" alt="">
               <p class="fonsizeTitle marlef">Você receberá 30 dias: <span class="fonsize">primeiro pagamento até <span>28 de Março</span> via <span>pix</span></span></p>
             </div>
-            <div>
-              <p>R$ 116,00</p>
+            <div style="display: flex;">
+              <p>R$</p>
+              <p id="percent">116,00</p>
             </div>
           </div>
   
