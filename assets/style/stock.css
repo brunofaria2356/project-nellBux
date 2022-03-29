@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.margin {
+  margin: 0.5vw 0;
+}
+
+.margin0 {
+  margin: 0;
+}
+
+.margin1 {
+  margin: 0.2vw 0.2vw;
+}
+
+h1, h2, h3, p, button, label, span,a {
+  font-size: 1vw;
+}
+
+h1, h2, h3 {
+  margin: 0.5vw 0;
+}
+
+.alingCenter {
+  align-items: center;
+}
+
+.backgroundOrange {
+  background-color: orange;
+}
+
+.backgroundWhith {
+  background-color: white;
+}
+
+.backgroudGrey {
+  background-color: #e2e2e2;
+}
+
+.backgroudGreyClear {
+  background-color: #f2f2f2;
+}
+
+.backgroudRed {
+  background-color: #F45966;
+}
+
+.borderRadius {
+  border-radius: 0.5vw;
+}
+
+.borderNone {
+  border: none;
+}
+
+.colorWhith {
+  color: white;
+}
+
+.colorRed {
+  color: #F45966;
+}
+
+.colorGreen {
+  color: #5EDD2D;
+}
+
+.displayFlex {
+  display: flex;
+}
+ 
+.displayGrid {
+  display: grid;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifySpacebetween {
+  justify-content: space-between;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.marginTopBotton {
+  margin: 2vw 0;
+}
+
+.marginRight {
+  margin-right: 0.5vw ;
+}
+
+.marginLeft2 {
+  margin-left: 0.5vw;
+}
+
+.borderRaius {
+  border-radius: 5vw;
+}
+
+.widthLol {
+  margin-top: 2vw;
+  padding: 2vw
+}
+
+.btnRequireOne button{
+  border: none;
+  color: black;
+  cursor: pointer;
+  background-color: #e2e2e2;
+  margin: 0 0.2vw;
+  font-size: 1vw;
+  font-weight: 800;
+  height: 2vw;
+  width: 2vw;
+}
+
+.btnRequireOne button:hover{
+  color: white;
+  background-color: #5283FF;
+}
+
+.btnNextInvestment {
+  margin-left: 2vw;
+  padding: 0.5 1vw 0 0;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.btnGreen {
+  color: white;
+  background-color: #5EDD2D;
+}
+
+.btnOrange {
+  color: white;
+  background-color: #F3992E;
+  cursor: pointer;
+}
+
+.btnBlue {
+  color: white;
+  background-color: #5283FF;
+}
+
+

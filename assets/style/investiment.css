@@ -1,0 +1,230 @@
+main {
+  background-color: #e2e2e2;
+  padding: 5vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerSearchInvestiment {
+  border-radius: 0.5vw;
+  padding: 2vw;
+  width: 20vw;
+}
+
+.containerInvestiment {
+  width: 40vw;
+}
+
+.btnPublish {
+  border-radius: 5vw;
+  font-weight: 540;
+  padding: 0.5vw 1vw;
+  width: 100%;
+}
+
+.size {
+  font-size: 1.2vw;
+}
+
+.weight{
+  font-weight: 900;
+}
+
+.labelInput {
+  padding: 0.3vw;
+}
+
+.inputWidth {
+  width: 7vw;
+}
+
+.select {
+  font-size: 0.9vw;
+  height: 2vw;
+  width: 100%;
+}
+
+.borderBox {
+  border: 0.1vw solid rgba(0, 0, 0, 0.378);
+  box-shadow: 0 0.1vw 0.1vw 0.1vw rgba(0, 0, 0, 0.268);
+}
+
+.card {
+  height: 5vw;
+  width: 5vw;
+}
+
+.card:hover {
+  border: 0.1vw solid orange;
+}
+
+.containerInvest button {
+  padding: 0.4vw 1.5vw;
+}
+
+.containerInvest1 button {
+  width: 30.6%;
+}
+
+.containerSearchInvestiment h2{
+  font-size: 1.7vw;
+}
+
+.containerUser button{
+  width: 49%;
+}
+
+.btnWeigth button{
+  border-radius: 5vw;
+  font-weight: 900;
+  height: 2vw;
+  width: 100%;
+}
+
+.input100 {
+  border-radius: 5vw;
+  height: 2vw;
+  width: 100%;
+}
+
+.btn {
+  font-size: 0.8vw;
+  width: 30%;
+}
+
+.btnWeigth1 {
+  font-weight: 700;
+  padding: 0.5vw 2vw;
+}
+
+.titleCards {
+  font-size: 1.5vw;
+}
+
+.btnCard {
+  padding: 0.4vw 0.8vw;
+}
+
+.marginTop1vw {
+  margin-top: 1vw;
+}
+
+.imgIcon {
+  margin-right: 0.3vw;
+  width: 1vw;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.btnSimulator {
+  font-size: 0.8vw;
+  font-weight: 550;
+}
+
+.textCard {
+  margin: 2vw 0;
+  font-size: 1vw;
+}
+
+.titleCard {
+  font-size: 1.4vw;
+  font-weight: 550;
+  width: 22vw;
+}
+
+.destaque {
+  border-radius: 0.5vw;
+  padding: 0.1vw 0.5vw;
+  font-size: 0.7vw;
+}
+
+.proposal {
+  border: none;
+  border-radius: 5vw;
+  margin-bottom: 0.5vw;
+  padding: 0.5vw 1vw;
+  text-align: right;
+}
+
+.valueProposal img {
+  margin-left: 0.5vw;
+}
+
+.infos p, .infos span{
+  font-size: 0.8vw;
+  margin: 1vw 0.8vw 1vw 0;
+}
+
+.containerDescription p {
+  margin: 1vw 0;
+}
+
+.containerInfos span {
+  border-radius: 5vw;
+  margin: 1vw 0.5vw 1vw 0;
+  padding: 0.2vw 1vw;
+  font-size: 0.8vw;
+}
+
+.containerCardDestaq {
+  border: 0.2vw solid orange;
+}
+
+.containOptions {
+  justify-content: space-between;
+  margin: 1vw 0 0;
+}
+
+.containOptions div {
+  align-items: center;
+  display: flex;
+}
+
+.containOptionsIcon {
+  display: flex;
+}
+
+.margin-right {
+  margin-right: 2vw;
+}
+
+.font08 {
+  font-size: 0.8vw;
+}
+
+.containOptionsIcon img {
+  margin-right: 1vw;
+  width: 1.5vw;
+}
+
+.iconStars {
+  margin-right: 1vw;
+  width: 5vw;
+}
+
+.btnInappropriate {
+  border: none;
+  background: none;
+}
+
+.btnInappropriate img {
+  margin-right: 0.5vw;
+  width: 1vw;
+}
+
+.containerInfosImg {
+  margin: 2vw 0;
+  justify-content: space-between;
+}
+
+.containerStages {
+  height: 9vw;
+  align-items: flex-start;
+}
+
+.imgInfo {
+  height: 10vw;
+  width: 15vw;
+}

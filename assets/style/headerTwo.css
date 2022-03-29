@@ -1,0 +1,91 @@
+.v-line {
+  background-color: #A4A4A4;
+  border: 0.05vw solid #A4A4A4;
+  width: 2.3vw;
+  transform: rotate(90deg);
+}
+
+.marginAuto {
+  margin: auto;
+}
+
+.input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.padding {
+  padding: 0 10vw;
+}
+
+.margin {
+  margin-top: 0.5vw;
+}
+
+.marginLeft {
+  margin-left: 5vw;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.justfy {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.colorText {
+  color: #A4A4A4;
+}
+
+.widthImg {
+  width: 1.5vw;
+}
+
+.backgroudNone {
+  background: none;
+  border: none;
+}
+
+.borderBotton {
+  border-bottom: 0.2vw solid #F3992E;
+}
+
+.inputSearch {
+  margin: 0.5vw;
+  font-size: 1vw;
+  height: 1vw;
+  width: 10vw;
+}
+
+.bgColor {
+  background-color: #F5F6FA;
+}
+
+.textBalance {
+  width: 10vw;
+  font-size: 1vw;
+}
+
+.client {
+  font-size: 1vw;
+}
+
+.client h3, p {
+  margin: 0.5vw;
+}
+
+.client h3 {
+  color: #A4A4A4;
+}
+
+.client p {
+  font-weight: 800;
+}
+
+.btnExit {
+  font-size: 1vw;
+  color: black;
+  font-weight: 800;
+}

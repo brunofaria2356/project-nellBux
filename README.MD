@@ -42,7 +42,7 @@ id="login"
 
 # Pagina Index
 
-# ![Captura de tela de 2022-03-14 07-35-59](/home/bruno/Imagens/Captura de tela de 2022-03-14 07-35-59.png)
+
 
 ## Link Hero "Selecione uma conta"
 
@@ -51,8 +51,6 @@ id="selectAccount"
 ```
 
 
-
-![Captura de tela de 2022-03-14 07-27-39](/home/bruno/Imagens/Captura de tela de 2022-03-14 07-27-39.png)
 
 ## Botão "Poupança Silver"
 
@@ -76,129 +74,9 @@ id="bronzeSaving"
 
 ------
 
-# Pagina Login
-
-![Captura de tela de 2022-03-14 07-37-04](/home/bruno/Imagens/Captura de tela de 2022-03-14 07-37-04.png)
-
-## Input "Email"
-
-```
-id="loginEmail"
-```
-
-## Input "Senha"
-
-```
-id="loginPassword"
-```
-
-## Link "Esqueci minha senha"
-
-```
-id="rememberPassword"
-```
-
-## Botão "Entrar"
-
-```
-id="btnGetIn"
-```
-
-## Link "Crie uma agora"
-
-```
-id="createNow"
-```
-
-------
-
-# Pagina "RegisterOne"
-
-![Captura de tela de 2022-03-14 08-03-07](/home/bruno/Imagens/Captura de tela de 2022-03-14 08-03-07.png)
-
-## Input "nome"
-
-```
-id="registerName"
-```
-
-## Input "email"
-
-```
-id="registerEmail"
-```
-
-## Input "CPF"
-
-```
-id="registerCPF"
-```
-
-## Input "nascimento"
-
-```
-id="registerBirth"
-```
-
-## Botão "Proximo pedido"
-
-```
-id="registerBtnNextRequest"
-```
-
-------
-
-# Pagina "RegisterTwo"
-
-![Captura de tela de 2022-03-14 08-14-17](/home/bruno/Imagens/Captura de tela de 2022-03-14 08-14-17.png)
-
-## Input "telefone"
-
-```
-id="registerPhone"
-```
-
-## Input "usuario"
-
-```
-id="registerUser"
-```
-
-## Input "senha" 
-
-```
-id="registerPassword"
-```
-
-## Input "confirmar senha"
-
-```
-id="registerCheckPassword"
-```
-
-## CheckBox "termos de uso"
-
-```
-id="registerCheckBox"
-```
-
-## Botão "Finalizar pedido"
-
-```
-id="registerBtnFinishRequest"
-```
-
-## Link "voltar"
-
-```
-id="registerReturn"
-```
-
-------
-
 # Pagina "resume"
 
-![Captura de tela de 2022-03-14 09-22-58](/home/bruno/Imagens/Captura de tela de 2022-03-14 09-22-58.png)
+
 
 ## Input "valor"
 
@@ -246,5 +124,283 @@ id="p"
 
 ```
 id="percent"
+```
+
+
+
+------
+
+# Pagina Help Center
+
+
+
+## Input "Name"
+
+```
+id="helpName"
+```
+
+
+
+## Input "email"
+
+```
+id="helpEmail"
+```
+
+
+
+## Input "CPF "
+
+```
+id="helpCPF"
+```
+
+
+
+## Input "nascimento"
+
+```
+id="helpBirth"
+```
+
+
+
+## Container "CAPTCHA"
+
+```
+id="containerCAPTCHA"
+```
+
+
+
+## Botao "Enviar Menssagem"
+
+```
+id="helpBtnSendMessage"
+```
+
+
+
+## Botão "Abrir chamado"
+
+```
+id="helpBtnCalled"
+```
+
+
+
+## Botão "Visualizar"
+
+```
+id="helpBtnToView"
+```
+
+------
+
+# Pagina Login
+
+
+
+## Input "email"
+
+```
+id="loginEmail"
+```
+
+
+
+## Input "senha"
+
+```
+id="loginPassword" 
+```
+
+
+
+## Link "Esqueci minha senha"
+
+```
+id="rememberPassword"
+```
+
+
+
+## Botão "Entrar"
+
+```
+id="btnGetIn"
+```
+
+
+
+## Link "crie uma conta"
+
+```
+id="createNow"
+```
+
+
+
+------
+
+# Pagina "registerOne"
+
+
+
+## Input "nome"
+
+```
+id="registerName"
+```
+
+
+
+## Input "email"
+
+```
+id="registerEmail"
+```
+
+
+
+## Input "CPF"
+
+```
+id="registerCPF"
+```
+
+
+
+## Input "nascimento"
+
+```
+id="registerBirth"
+```
+
+
+
+## Botão "Proximo pedido"
+
+```
+id="registerBtnNextRequest"
+```
+
+
+
+------
+
+# Pagina "RegisterTwo"
+
+
+
+## Input "telefone"
+
+```
+id="registerPhone"
+```
+
+## Input "usuario"
+
+```
+id="registerUser"
+```
+
+## Input "senha" 
+
+```
+id="registerPassword"
+```
+
+## Input "confirmar senha"
+
+```
+id="registerCheckPassword"
+```
+
+## CheckBox "termos de uso"
+
+```
+id="registerCheckBox"
+```
+
+## Botão "Finalizar pedido"
+
+```
+id="registerBtnFinishRequest"
+```
+
+## Link "voltar"
+
+```
+id="registerReturn"
+```
+
+------
+
+# Pagina "Home"
+
+
+
+## Formulario
+
+### Input  quanto quer investir - input range
+
+```
+id="homeInputRange"
+```
+
+### input text
+
+```
+id="homeInputRangeText"
+```
+
+
+
+### Select "Em quanto tempo"
+
+```
+id="homeSelectTime"
+```
+
+
+
+### Input "Aporte mensal"
+
+```
+id="homeInputContribution"
+```
+
+
+
+### checkbox "aceito receber"
+
+```
+id=" "
+```
+
+
+
+### checkbox "termos de uso"
+
+```
+id="checkboxTermsOfUse"
+```
+
+
+
+### Botao "simular agora"
+
+```
+id="btnSimulation"
+```
+
+
+
+## Botão "Abra sua conta"
+
+```
+id="btnHomeOpenAccount"
 ```
 

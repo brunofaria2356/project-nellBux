@@ -1,0 +1,259 @@
+.v-line {
+  background-color: #A4A4A4;
+  border: 0.05vw solid #A4A4A4;
+  width: 2.3vw;
+  transform: rotate(90deg);
+}
+
+.marginAuto {
+  margin: auto;
+}
+
+.input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.padding {
+  padding: 0 10vw;
+}
+
+.margin {
+  margin-top: 0.5vw;
+}
+
+.marginLeft {
+  margin-left: 5vw;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.justfy {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.colorText {
+  color: #A4A4A4;
+}
+
+.widthImg {
+  width: 1.5vw;
+}
+
+.backgroudNone {
+  background: none;
+  border: none;
+}
+
+.borderBotton {
+  border-bottom: 0.2vw solid #F3992E;
+}
+
+.inputSearch {
+  margin: 0.5vw;
+  font-size: 1vw;
+  height: 1vw;
+  width: 10vw;
+}
+
+.bgColor {
+  background-color: #F5F6FA;
+}
+
+.textBalance {
+  width: 10vw;
+  font-size: 1vw;
+}
+
+.client {
+  font-size: 1vw;
+}
+
+.client h3, p {
+  margin: 0.5vw;
+}
+
+.client h3 {
+  color: #A4A4A4;
+}
+
+.client p {
+  font-weight: 800;
+}
+
+.btnExit {
+  font-size: 1vw;
+  color: black;
+  font-weight: 800;
+}
+
+/* conteudo */
+
+main {
+  background-color: #e2e2e2;
+  padding: 5vw;
+  display: grid;
+  justify-content: center;
+}
+.containerCheckEmail {
+  border-radius: 2vw;
+  align-items: center;
+  padding: 0.5vw 1vw;
+  background-color: white;
+  width: 80vw;
+}
+
+.containerCheckEmail p {
+  font-size: 1vw;
+  margin: auto;
+}
+
+.containerValue {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.containerValue h2 {
+  font-size: 2vw;
+  width: 20vw;
+}
+
+.containerContent {
+  background-color: white;
+  border-radius: 1vw;
+  margin: 2vw auto;
+  padding: 1vw;
+  width: 80vw;
+}
+
+.remuneration {
+  display: grid;
+  text-align: right;
+  margin: 0 1.5vw;
+}
+
+.orange {
+  color: #F3992E;
+}
+
+.blue {
+  color: #5283FF;
+}
+
+.greyBack {
+  background-color: #dfdfdf;
+}
+
+.blueBack {
+  background-color: #5283FF;
+}
+
+.white {
+  color: white;
+}
+
+.remuneration h3 {
+  margin: 0;
+  font-size: 2vw;
+  font-weight: 900;
+}
+
+.remuneration p {
+  font-size: 1vw;
+}
+
+.remuneration button {
+  border: none;
+  border-radius: 0.5vw;
+  font-size: 1vw;
+  font-weight: 700;
+  padding: 1vw 2vw;
+}
+
+.table {
+  background-color: #d6d6d6;
+  border-radius: 0.5vw 0.5vw 0 0;
+  margin: 2vw auto;
+  width: 100%;
+}
+
+
+.space td {
+  padding: 1vw 5vw;
+}
+
+
+.displayGrid {
+  display: grid;
+}
+
+.justityCenter {
+  justify-content: center;
+}
+
+.titleTable {
+  font-size: 1vw;
+  font-weight: 900;
+}
+
+.textTable {
+  font-size: 1vw;
+  font-weight: 800;
+}
+
+.colorGreen {
+  color: #5EDD2D;
+}
+
+.btnRequire button{
+  border: none;
+  color: white;
+  background-color: #202020;
+  padding: 0.5vw 0.5vw;
+  font-size: 1vw;
+}
+
+.btnRequire button{
+  border: none;
+  color: #202020;
+  background-color: white;
+  padding: 0.5vw 0.5vw;
+  font-size: 1vw;
+}
+
+.containerRequire {
+  align-items: center;
+  display: flex;
+}
+
+.containerRequire img{
+  margin: 0 0.5vw;
+  width: 0.5vw;
+}
+
+.containerChat {
+  position: absolute;
+  right: 4vw;
+  bottom: 2vw;
+}
+
+.containerChat button {
+  align-items: center;
+  background-color: #F3992E;
+  border: none;
+  border-radius: 5vw;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  padding: 0.5vw 1.5vw;
+  font-size: 1vw;
+  font-weight: 800;
+}
+
+.containerChat img {
+  margin-right: 0.5vw;
+  width: 2vw;
+}

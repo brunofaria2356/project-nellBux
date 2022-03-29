@@ -22,22 +22,22 @@
       <form action="" method="get">
         <fieldset class="textLeft marginBotton width">
           <legend>telefone <span class="red">*</span></legend>
-          <input id="registerPhone" class="input" type="text" placeholder="Digite seu nome">
+          <input data-mask="(99) 99999-9999" id="registerPhone" class="input" type="text" placeholder="Digite seu telefone">
         </fieldset>
 
         <fieldset class="textLeft marginBotton width">
           <legend>usuário <span class="red">*</span></legend>
-          <input id="registerUser" class="input" type="email" placeholder="Digite seu email">
+          <input id="registerUser" class="input" type="email" placeholder="Escolha seu nome de usuario">
         </fieldset>
 
         <fieldset class="textLeft marginBotton width">
           <legend>senha <span class="red">*</span> </legend>
-          <input id="registerPassword" class="input" type="password" placeholder="Digite seu CPF">
+          <input id="registerPassword" class="input" type="password" placeholder="Escolha sua senha">
         </fieldset>
 
         <fieldset class="textLeft marginBotton width">
           <legend> confirmação de senha <span class="red">*</span> </legend>
-          <input id="registerCheckPassword" class="input" type="password" placeholder="Digite sua data de nascimento">
+          <input id="registerCheckPassword" class="input" type="password" placeholder="Digite sua senha novamente">
         </fieldset>
 
         <div class="marginBotton font displayCheck">
@@ -61,5 +61,9 @@
       </div>
     </div>
   </section>
+  <!-- Atente-se para a ordem: primeiro jquery, depois locastyle, depois o JS do Bootstrap. -->
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="//assets.locaweb.com.br/locastyle/2.0.6/javascripts/locastyle.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
 </html>

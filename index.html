@@ -13,15 +13,15 @@
 <!-- Cabeçalho -->
 
   <header class="header">
-    <a href="/">
+    <a href="pages/home.html">
       <img class="logo" src="assets/images/logo.png" alt="Logo" />
     </a>
     <nav class="containerNav">
       <a id="main" class="link" href="/"> Principal </a>
-      <a id="createAccount" class="link"  href="/create-account"> Abrir conta poupança </a>
+      <a id="createAccount" class="link"  href="/registerOne.html"> Abrir conta poupança </a>
       <a id="usageRules" class="link"  href="/regras-de-uso.html"> Regras de uso </a>
       <a id="ranks" class="link"  href="/ranks"> Ranks </a>
-      <a id="contact" class="link" href="/contact"> Contato </a>
+      <a id="contact" class="link" href="/helpCenter.html"> Contato </a>
       <a id="login" class="link btnGetIn" href="/login.html"> Entrar </a>
     </nav>
   </header>
@@ -86,7 +86,7 @@
               <p class="paragraph">Saques a partir de <span>R$0,01</span></p>
             </div>
 
-            <button id="silverSavings" class="btnInvest">INVESTIR AGORA</button>
+            <button onclick="redirectPageResume()" id="silverSavings" class="btnInvest" type="button">INVESTIR AGORA</button>
           </div>
 
           <div class="card darkBlue cardBlue">
@@ -117,7 +117,7 @@
               <p class="paragraph white">Saques a partir de <span>R$0,01</span></p>
             </div>
 
-            <button class="btnInvest btnDarkBlue">INVESTIR AGORA</button>
+            <button onclick="redirectPageResume()" id="goldSaving" class="btnInvest btnDarkBlue" type="button">INVESTIR AGORA</button>
           </div>
 
           <div class="card backGroudWhite">
@@ -147,7 +147,7 @@
               <p class="paragraph">Saques a partir de <span>R$0,01</span></p>
             </div>
 
-            <button class="btnInvest">INVESTIR AGORA</button>
+            <button onclick="redirectPageResume()" id="bronzeSaving" class="btnInvest" type="button">INVESTIR AGORA</button>
           </div>
         </div>
       </section>
@@ -163,5 +163,6 @@
     </main>
     <div class="targBlue"></div>
   </div>
+  <script src="assets/scrypts/index.js"></script>
 </body>
 </html>

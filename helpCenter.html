@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Se estiver usando bootstrap, coloque o CSS do Locastyle logo após a sua chamada -->
+
+<link rel="stylesheet" type="text/css" href="//assets.locaweb.com.br/locastyle/2.0.6/stylesheets/locastyle.css">
 
   <link rel="stylesheet" href="assets/style/index.css">
   <link rel="stylesheet" href="assets/style/helpCenter.css">
+
+
   <title>Nell Bux</title>
 </head>
 
@@ -15,19 +21,19 @@
 
 <!-- Cabeçalho -->
 
-  <header class="header">
-    <a href="/">
-      <img class="logo" src="assets/images/logo.png" alt="Logo" />
-    </a>
-    <nav class="containerNav">
-      <a class="link" href="/"> Principal </a>
-      <a class="link"  href="/create-account"> Abrir conta poupança </a>
-      <a class="link"  href="/usage-rules"> Regras de uso </a>
-      <a class="link"  href="/ranks"> Ranks </a>
-      <a class="link" href="/contact"> Contato </a>
-      <a class="link btnGetIn" href="/contact"> Entrar </a>
-    </nav>
-  </header>
+<header class="header">
+  <a href="pages/home.html">
+    <img class="logo" src="assets/images/logo.png" alt="Logo" />
+  </a>
+  <nav class="containerNav">
+    <a id="main" class="link" href="/"> Principal </a>
+    <a id="createAccount" class="link"  href="/registerOne.html"> Abrir conta poupança </a>
+    <a id="usageRules" class="link"  href="/regras-de-uso.html"> Regras de uso </a>
+    <a id="ranks" class="link"  href="/ranks"> Ranks </a>
+    <a id="contact" class="link" href="/helpCenter.html"> Contato </a>
+    <a id="login" class="link btnGetIn" href="/login.html"> Entrar </a>
+  </nav>
+</header>
 
   <div class="main">
 
@@ -51,34 +57,34 @@
             <p>Campos marcados com * são obrigatórios</p>
           </div>
 
-          <form action="" method="get">
+          <form action="" method="post">
             <fieldset class="textLeft marginBotton width">
               <legend>nome <span class="red">*</span></legend>
-              <input id="helpName" class="input" type="text" placeholder="Digite seu nome">
+              <input required id="helpName" class="input" type="text" placeholder="Digite seu nome">
             </fieldset>
     
             <fieldset class="textLeft marginBotton width">
               <legend>email <span class="red">*</span></legend>
-              <input id="helpEmail" class="input" type="email" placeholder="Digite seu email">
+              <input required id="helpEmail" class="input" type="email"data-mask="" placeholder="Digite seu email">
             </fieldset>
     
             <fieldset class="textLeft marginBotton width">
               <legend>CPF <span class="red">*</span> </legend>
-              <input id="helpCPF" class="input" type="text" placeholder="Digite seu CPF">
+              <input required  id="helpCPF" data-mask="000.000.000-00" class="input" type="text" placeholder="Digite seu CPF">
             </fieldset>
     
             <fieldset class="textLeft marginBotton width">
               <legend> nascimento <span class="red">*</span> </legend>
-              <input id="helpBirth" class="input" type="date" placeholder="Digite sua data de nascimento">
+              <input required id="helpBirth" class="input" type="text" data-mask="00/00/0000" placeholder="Digite sua data de nascimento DD/MM/AAAA">
             </fieldset>
           </form>
 
-          	<div>
+          	<div id="containerCAPTCHA">
               espaço de CAPTCHA
             </div>
 
             <div class="displayFlex">
-              <button id="helpBtnSendMessage" class="btnNext">
+              <button id="helpBtnSendMessage" type="submit" class="btnNext">
                 Enviar Menssagem
                 <img class="marginImg" src="assets/images/Arrow 6.png" alt="">
               </button>
@@ -117,5 +123,11 @@
     </main>
     <div class="targBlue"></div>
   </div>
+  <script src="assets/scrypts/helpCenter.js"></script>
+
+<!-- Atente-se para a ordem: primeiro jquery, depois locastyle, depois o JS do Bootstrap. -->
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="//assets.locaweb.com.br/locastyle/2.0.6/javascripts/locastyle.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -22,22 +22,22 @@
       <form action="" method="get">
         <fieldset class="textLeft marginBotton width">
           <legend>nome <span class="red">*</span></legend>
-          <input id="registerName" class="input" type="text" placeholder="Digite seu nome">
+          <input required id="registerName" class="input" type="text" placeholder="Digite seu nome">
         </fieldset>
 
         <fieldset class="textLeft marginBotton width">
           <legend>email <span class="red">*</span></legend>
-          <input id="registerEmail" class="input" type="email" placeholder="Digite seu email">
+          <input required id="registerEmail" class="input" type="email" placeholder="Digite seu email">
         </fieldset>
 
         <fieldset class="textLeft marginBotton width">
           <legend>CPF <span class="red">*</span> </legend>
-          <input class="input" type="text" placeholder="Digite seu CPF">
+          <input required id="registerCPF" data-mask="000.000.000-00" class="input" type="text" placeholder="Digite seu CPF">
         </fieldset>
 
         <fieldset class="textLeft marginBotton width">
           <legend> nascimento <span class="red">*</span> </legend>
-          <input id="registerBirth" class="input" type="date" placeholder="Digite sua data de nascimento">
+          <input required data-mask="00/00/0000" id="registerBirth" class="input" type="text" placeholder="Digite sua data de nascimento DD/MM/AAAA">
         </fieldset>
       </form>
       <p class="marginBotton font">Campos marcados com <span class="red">*</span> são obrigatórios.</p>
@@ -49,5 +49,9 @@
       </div>
     </div>
   </section>
+<!-- Atente-se para a ordem: primeiro jquery, depois locastyle, depois o JS do Bootstrap. -->
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="//assets.locaweb.com.br/locastyle/2.0.6/javascripts/locastyle.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
 </html>

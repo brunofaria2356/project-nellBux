@@ -1,0 +1,1 @@
+const redirectPageResume = () => window.location.assign ("../../resume.html");

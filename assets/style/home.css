@@ -1,0 +1,493 @@
+.colorYellow {
+ color: yellow;
+}
+
+.homeContainer {
+  position: relative;
+  top: 5vw;
+  background-color: rgb(233, 233, 233);
+}
+
+.homeContainerHero {
+  display: grid;
+  justify-content: center;
+  padding: 4vw;
+  width: 100%;
+  background-color: rgb(71, 114, 255);
+}
+
+.homeContainerHeroMensage {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.241);
+  border-radius: 5vw;
+  color: white;
+  padding: 0.5vw ;
+  margin-bottom: 1vw;
+  font-size: 1vw;
+}
+
+.homeContainerHeroMensage p {
+  display: inline;
+}
+
+.homeContainerHeroContent {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+.homeContainerHeroOne {
+  margin-top: 5vw;
+  margin-right: 10vw;
+  color: white;
+  width: 28vw;
+}
+
+.homeContainerHeroOne h1 {
+  font-size: 2vw;
+}
+
+.homeContainerHeroOne p {
+  font-size: 1vw;
+  margin: 1vw 0;
+}
+
+.homeBtnHero {
+  margin-top: 1vw;
+}
+
+.homeBtnHero img{
+  width: 9vw;
+}
+
+.homeContainerHeroTwo {
+  border-radius: 0.5vw;
+  background-color: rgba(0, 0, 0, 0.138);
+  width: 25vw;
+}
+
+.homeHeroForms {
+  display: grid;
+  justify-content: center;
+  padding: 2vw;
+}
+
+.heroInvetment {
+  margin-bottom: 1vw;
+}
+
+.heroLabelInvetment {
+  color: white;
+  display: grid;
+  font-size: 1.5vw
+}
+
+.HeroContainerSpanInvestment {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1vw;
+}
+input[type=range] {
+  margin: 1vw 0 0;
+}
+
+input[type=text], select{
+  border: none;
+  border-radius: 0.2vw;
+  margin-top: 1vw;
+  height: 2vw;
+  padding: 0 0.5vw;
+  font-size: 1vw;
+}
+
+.heroTimeLabel,
+.heroContributionLabel,
+.heroCheckBox {
+  color: white;
+  display: grid;
+  font-size: 1vw;
+  margin-top: 1vw;
+}
+
+.heroCheckBoxLabel {
+  margin-top: 1vw;
+}
+
+.heroCheckBoxLabel a {
+  color: orange;
+  text-decoration: none;
+}
+
+.heroBtn {
+  background-color: orange;
+  border: none;
+  border-radius: 5vw;
+  color: white;
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  font-weight: 600;
+  padding: 0.5vw 0;
+}
+
+/* container 2 */
+
+.homeContainerTwo {
+  display: flex;
+  justify-content: center;
+  padding: 5vw;
+}
+
+.homeContainerImgTwoCell {
+  margin-right: 5vw;
+}
+
+.homeContainerImgTwoCell img {
+  width: 15vw;
+}
+
+.homeContainerTwoText {
+  margin: auto 0 auto 5vw;
+}
+
+.homeContainerTwoText h2 {
+  font-size: 2vw;
+}
+
+.homeContainerTwoText span {
+  color: orange;
+  font-size: 2vw;
+  margin-right: 0.5vw;
+}
+
+.homeContainerTwoText p {
+  display: flex;
+  align-items: center;
+  margin: 1vw 0;
+  font-size: 1vw;
+}
+
+/* container 3  */
+
+.homeContainerTree {
+  display: grid;
+  justify-content: center;
+}
+
+.homeContainerTree h2 {
+  text-align: center;
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+
+.homeContainerTreeCardsFlex {
+  display: flex;
+}
+
+.homeContainerTreeCard {
+  background-color: white;
+  border-radius: 0.5vw;
+  margin: 1vw;
+  padding: 2vw;
+  width: 30vw;
+}
+
+.homeContainerTreeCard p {
+  margin: 1vw 0;
+  font-size: 1.1vw;
+}
+
+.homeContainerTreeCard span {
+  font-weight: bold;
+}
+
+/* container 3 */
+
+.homeContainerFour {
+  display: grid;
+  justify-content: center;
+  padding: 5vw;
+}
+
+.homeContainerFourText {
+  display: flex;
+}
+
+.homeContainerFourText h2,
+.homeContainerFourText p {
+  margin-top: 2vw;
+  font-size: 1vw;
+  width: 27vw;
+}
+
+.homeContainerFourText h2 {
+  font-size: 2vw;
+}
+
+.homeContainerFourText img {
+  box-shadow: 0 0 0.5vw 0.5vw rgba(0, 0, 0, 0.152);
+  border-radius: 0.5vw;
+  margin-left: 10vw;
+  height: 18vw;
+  width: 18vw;
+}
+
+.homeContainerFourTextTwo p {
+  margin-top: 2vw;
+  font-size: 1vw;
+}
+
+/* container 5 */
+
+.homeContainerFive {
+  align-items: center;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2vw;
+}
+
+.homeContainerFive h2 {
+  font-size: 2vw;
+  margin-right: 5vw;
+}
+
+.homeContainerFive button {
+  background-color: orange;
+  border: none;
+  border-radius: 5vw;
+  color: white;
+  font-size: 1.4vw;
+  font-weight: 600;
+  height: 3.2vw;
+  width: 19vw;
+}
+
+/* container 5 */
+.homeContainerSix {
+  display: grid;
+  justify-content: center;
+  padding: 5vw;
+  text-align: center;
+}
+
+.homeContainerSix p {
+  margin-top: 2vw;
+}
+
+.homeContainerSix h3 {
+  margin-top: 2vw;
+}
+
+.homeContainerSix img {
+  margin: 0 auto;
+  margin-top: 2vw;
+}
+
+/* container 6 */
+
+.homeContainerSix {
+  margin: 0 auto;
+  font-size: 1vw;
+  width: 70vw;
+}
+
+/* container 7 */
+
+.homeContainerSeven {
+  padding: 5vw;
+  background-color: rgb(0, 110, 255);
+  color: white;
+}
+
+.homeContainerSevenTitle {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.homeContainerSevenTitleSeven {
+  display: flex;
+}
+
+.homeContainerSevenTitleSeven h2{
+  font-size: 2vw;
+  margin-left: 2vw;
+  width: 30vw;
+}
+
+.homeContainerSevenTitleSeven span {
+  font-size: 2vw;
+}
+
+.homeContainerSevenStars {
+  display: grid;
+  align-items: center;
+  text-align: right;
+  font-size: 1vw;
+}
+
+.homeContainerSevenStars p {
+  margin-bottom: 0.5vw;
+}
+
+.homeContainerSevenStars span{
+  color: yellow;
+  margin-right: 0.3vw;
+}
+
+.homeContainerSevenStars img {
+  width: 5vw;
+}
+
+.homeContainerSevenCards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vw;
+}
+
+.homeContainerSevenCard {
+  background-color: white;
+  border-radius: 0.5vw;
+  color: black;
+  padding: 2vw;
+  width: 20vw;
+}
+
+.homeContainerSevenCardProfile {
+  align-items: center;
+  display: flex;
+  margin-bottom: 2vw;
+}
+
+.homeContainerSevenCardProfile img {
+  width: 3vw;
+}
+
+.homeContainerSevenCardStar {
+  margin-left: 1vw;
+}
+
+.homeContainerSevenCardStar h3 {
+  font-size: 1.5vw;
+}
+
+.homeContainerSevenCardStar p span {
+  color: rgb(231, 231, 0);
+  font-size: 1vw;
+  font-weight: 600;
+  margin-right: 0.3vw;
+}
+
+.homeContainerSevenCardIcon span{
+  color: blueviolet;
+  font-size: 2vw;
+}
+
+.homeContainerSevenCardIcon p {
+  margin-top: 1vw;
+  font-size: 1vw;
+  text-align: justify;
+}
+
+.homeContainerSevenCardSocial {
+  display: flex;
+  align-items: center;
+  margin-top: 3vw;
+}
+
+.homeContainerSevenCardSocial img{
+  width: 2vw;
+  margin-right: 0.5vw;
+}
+
+.homeContainerSevenCardSocial a {
+  font-size: 0.9vw;
+}
+
+.homeContainerSevenBg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 4vw ;
+  margin-top: 4vw;
+}
+
+.homeContainerSevenBgSpan {
+  display: flex;
+}
+
+.homeContainerSevenBgSpan div {
+  width: 1vw;
+  background-color: white;
+  height: 0.5vw;
+  border-radius: 5vw;
+  margin: 0 0.2vw;
+}
+
+.homeContainerSevenBgButton button {
+  background: none;
+  margin: 0 0.2vw;
+  border: none;
+}
+
+.homeContainerSevenBgButton img {
+  width: 2vw;
+}
+
+/* container 8 */
+
+.containerHomeEigth {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 4vw;
+  width: 100%;
+}
+
+.btn-group button {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1vw;
+  font-weight: 600;
+  text-align: left;
+  margin: 1vw 0;
+  width: 80vw;
+}
+
+.btn-group {
+  width: 80vw;
+  box-sizing: border-box;
+}
+
+.dropdown-menu {
+  width: 80vw;
+}
+
+.dropdown-menu ul,
+.dropdown-menu li,
+.dropdown-menu p {
+  white-space: normal;
+  text-overflow: clip;
+  width: 80em;
+}
+
+.footer {
+  background-color: rgb(71, 114, 255);
+  height: 5vw;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: white;
+}
+
+.btn-primary:active {
+  background-color: white;
+}

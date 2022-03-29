@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="../assets/style/index.css">
+  <link rel="stylesheet" href="../assets/style/home.css">
+  <title>Nell Bux</title>
+</head>
+<body>
+  <!-- Cabeçalho -->
+
+  <header class="header">
+    <a href="pages/home.html">
+      <img class="logo" src="assets/images/logo.png" alt="Logo" />
+    </a>
+    <nav class="containerNav">
+      <a id="main" class="link" href="/"> Principal </a>
+      <a id="createAccount" class="link"  href="/registerOne.html"> Abrir conta poupança </a>
+      <a id="usageRules" class="link"  href="/regras-de-uso.html"> Regras de uso </a>
+      <a id="ranks" class="link"  href="/ranks"> Ranks </a>
+      <a id="contact" class="link" href="/helpCenter.html"> Contato </a>
+      <a id="login" class="link btnGetIn" href="/login.html"> Entrar </a>
+    </nav>
+  </header>
+
+  <!-- conteudo -->
+  <main class="homeContainer">
+
+    <!-- container 1 -->
+    <section class="homeContainerHero">
+
+      <div class="homeContainerHeroMensage">
+        <p>
+          Atenção! O Nellbux 
+            <span class="colorYellow">
+              não cobra taxas de corretagem
+            </span>
+          para investimento ou retirada.
+        </p>
+      </div>
+
+      <div class="homeContainerHeroContent">
+        <div class="homeContainerHeroOne">
+          <h1>
+            Invista ainda hoje!
+          </h1>
+          <p>
+            Um novo jeito de negociar no setor de finanças. Empreste, invista para terceiros com segurança e garantia.
+          </p>
+          <div class="homeContainerHeroBtns">
+            <button class="homeBtnHero">
+              <img src="../assets/images/disponivel-google-play-badge.png" alt="">
+            </button>
+            <button class="homeBtnHero">
+              <img src="../assets/images/disponivel-na-app-store-botao.png" alt="">
+            </button>
+          </div>
+        </div>
+
+        <div class="homeContainerHeroTwo">
+          <form class="homeHeroForms" action="" method="get">
+
+            <div class="heroInvetment">
+              <label class="heroLabelInvetment" for="">
+                Quanto você quer investir?
+                <input type="range" list="tickmarks" name="" id="homeInputRange" min="1.000" max="250.000">
+                <div class="HeroContainerSpanInvestment">
+                  <span>R$ 1.000</span>
+                  <span>R$ 250.000</span>
+                </div>
+                <input type="text" name="" id="homeInputRangeText" placeholder="R$ 10.000">
+              </label>
+            </div>
+
+            <div class="heroTime">
+              <label class="heroTimeLabel" for="">
+                Em quanto tempo?
+                <select name="" id="homeSelectTime">
+                  <option value="" selected disabled>Selecione o tempo</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="heroContribution">
+              <label class="heroContributionLabel" for="">
+                Aporte mensal? (opcional)
+                <input id="homeInputContribution" type="text" placeholder="Digite o valor">
+              </label>
+            </div>
+
+            <div class="heroCheckBox">
+              <label class="heroCheckBoxLabel" for="">
+                <input id="checkboxAcept" type="checkbox">
+                Aceito receber comunicações da NellBux por e-mail, Whatsapp e SMS.
+              </label>
+              <label class="heroCheckBoxLabel" for="">
+                <input id="checkboxTermsOfUse" type="checkbox">
+                Aceito os <a href="#">termos de uso</a> e <a href="#">política de privacidade</a>
+              </label>
+            </div>
+
+            <button id="btnSimulation" class="heroBtn">Simular Agora!</button>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- container 2 -->
+
+    <section class="homeContainerTwo">
+      <div class="homeContainerImgTwoCell">
+        <img src="../assets/images/cell 1.png" alt="">
+      </div>
+      <div class="homeContainerTwoText">
+        <h2>
+          Por que Escolher Nellbux
+        </h2>
+        <p>
+          <span>&#10004;</span> 
+          Várias ofertar para você investir e solicitar
+        </p>
+        <p>
+          <span>&#10004;</span> 
+          Programa de Afiliados com remuneração diária
+        </p>
+        <p>
+          <span>&#10004;</span> 
+          Rentabilidade Acima da Inflação
+        </p>
+        <p>
+          <span>&#10004;</span> 
+          Segurança e Garantia para Aplicações
+        </p>
+        <p>
+          <span>&#10004;</span> 
+          Saques via PIX
+        </p>
+      </div>
+    </section>
+
+    <!-- container 3 -->
+
+    <section class="homeContainerTree">
+      <h2>
+        Como funciona?
+      </h2>
+      <div class="homeContainerTreeCards">
+
+
+        <!-- linha1 -->
+        <div class="homeContainerTreeCardsFlex">
+
+          <!-- Card 1 -->
+          <div class="homeContainerTreeCard">
+            <img src="" alt="">
+            <p>
+              1. Faça seu 
+              <span>Cadastro</span>
+            </p>
+            <p>
+              Precisamos de algumas informações suas para podermos consultar nossos parceiros. Aqui os seus dados estão seguros.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="homeContainerTreeCard">
+            <img src="" alt="">
+            <p>
+              2. 
+              <span>Compare as ofertas</span>
+              que encontramos para você
+            </p>
+            <p>
+              Analise o total liberado, valor das parcelas e taxas de juros e escolha a que cabe no seu bolso.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- linha2 -->
+        <div class="homeContainerTreeCardsFlex">
+
+          <!-- Card 3 -->
+          <div class="homeContainerTreeCard">
+            <img src="" alt="">
+            <p>
+              3. Comprove seus
+              <span>dados cadastrais</span>
+            </p>
+            <p>
+              Você precisará comprovar as informações cadastradas e publicadas na plataforma
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="homeContainerTreeCard">
+            <img src="" alt="">
+            <p>
+              4. 
+              <span>Dinheiro</span>
+              na conta
+            </p>
+            <p>
+              Precisamos de algumas informações suas para podermos consultar nossos parceiros. Aqui os seus dados estão seguros.
+            </p>
+          </div>
+
+        </div>
+
+        
+      </div>
+    </section>
+    
+    <!-- container 4 -->
+
+    <section class="homeContainerFour">
+      <div class="homeContainerFourText">
+        <div>
+          <h2>
+            Ganhe Dinheiro com empréstimos
+          </h2>
+          <p>
+            Empreste o seu dinheiro de forma segura e garanta seu futuro com a NellBux, veja a seguir
+          </p>
+          <p>
+            Nossos planos de renda extra são os melhores, a partir de R$ 25,00 reais.
+          </p>
+          <p>
+            Tenha a melhor plataforma de investimentos sempre com você.
+          </p>
+        </div>
+        <img src="../assets/images/Mask Group.png" alt="">
+      </div>
+      <div class="homeContainerFourTextTwo">
+        <p>
+          E veja em 2022 seu dinheiro rendendo onde você estiver, com toda segurança e garantia.
+        </p>
+        <p>
+          Todo processo é automático geramos sua rentabilidade fixa e igualmente todos os meses em sua conta poupança.
+        </p>
+        <p>
+          Faça um teste rápido sem compromisso. Se você não gostar de investir com a NellBux devolvemos seu dinheiro.
+        </p>
+      </div>
+    </section>
+
+    <!-- container 5 -->
+    <section class="homeContainerFive">
+      <h2>
+        Garantia para seu futuro é com a Nellbux
+      </h2>
+      <button id="btnHomeOpenAccount" type="button">
+        Abra sua conta
+      </button>
+    </section>
+
+    <!-- container 6 -->
+    <section class="homeContainerSix">
+      <p>
+        A rentabilidade é gerada diariamente incluindo feriados e dinais de semana, na sua conta NellBux
+      </p>
+      <h3>
+        NellBux é seguro?
+      </h3>
+      <img src="../assets/images/image 10.png" alt="">
+      <p>
+        Sim nossa plataforma é <strong>Segura</strong>possuímos Certificação Digital <strong>(SSL)</strong> com Criptografia de dados. Atualmente somos a única plataforma que assegura uma <strong>renda fixa</strong> de forma <strong>honesta</strong> com rentabilidade todos os meses semelhante uma aposentadoria.
+      </p>
+    </section>
+
+    <!-- container 7 -->
+    <section class="homeContainerSeven">
+      <div class="homeContainerSevenTitle">
+        <div class="homeContainerSevenTitleSeven">
+          <span>&#10077;</span>
+          <h2>
+            A opinião de quem já conhece e confia no nosso trabalho:
+          </h2>
+        </div>
+          <div class="homeContainerSevenStars">
+            <p>
+              Avaliações no Google Play
+            </p>
+            <p>
+              <span>4.5</span>
+              <img src="../assets/images/Frame 766 (1).png" alt="">
+            </p>
+          </div>
+      </div>
+
+      <div class="homeContainerSevenCards">
+
+        <div class="homeContainerSevenCard">
+          <div class="homeContainerSevenCardProfile">
+            <img src="../assets/images/icons8-conta-de-teste-96.png" alt="">
+            <div class="homeContainerSevenCardStar">
+              <h3>Naty Soares</h3>
+              <p>
+                <span>5.0</span>
+                <img src="../assets/images/Frame 766.png" alt="">
+              </p>
+            </div>
+          </div>
+          <div class="homeContainerSevenCardIcon">
+            <span>&#10077;</span>
+            <p>
+              Atendimento excelente, resolveram o meu problema de forma imediata e o dinheiro caiu na conta antes do prazo esperado. Super recomendo, todas as vezes que preciso, estão prontos para me ajudar. Nota 10!!!
+            </p>
+          </div>
+          <div class="homeContainerSevenCardSocial">
+            <img src="../assets/images/icons8-facebook-novo-96.png" alt="logo face">
+            <a href="#">
+              Confira todas as avaliações
+            </a>
+          </div>
+        </div>
+
+        <div class="homeContainerSevenCard">
+          <div class="homeContainerSevenCardProfile">
+            <img src="../assets/images/icons8-conta-de-teste-96.png" alt="">
+            <div class="homeContainerSevenCardStar">
+              <h3>Naty Soares</h3>
+              <p>
+                <span>5.0</span>
+                <img src="../assets/images/Frame 766.png" alt="">
+              </p>
+            </div>
+          </div>
+          <div class="homeContainerSevenCardIcon">
+            <span>&#10077;</span>
+            <p>
+              Atendimento excelente, resolveram o meu problema de forma imediata e o dinheiro caiu na conta antes do prazo esperado. Super recomendo, todas as vezes que preciso, estão prontos para me ajudar. Nota 10!!!
+            </p>
+          </div>
+          <div class="homeContainerSevenCardSocial">
+            <img src="../assets/images/icons8-facebook-novo-96.png" alt="logo face">
+            <a href="#">
+              Confira todas as avaliações
+            </a>
+          </div>
+        </div>
+
+        <div class="homeContainerSevenCard">
+          <div class="homeContainerSevenCardProfile">
+            <img src="../assets/images/icons8-conta-de-teste-96.png" alt="">
+            <div class="homeContainerSevenCardStar">
+              <h3>Naty Soares</h3>
+              <p>
+                <span>5.0</span>
+                <img src="../assets/images/Frame 766.png" alt="">
+              </p>
+            </div>
+          </div>
+          <div class="homeContainerSevenCardIcon">
+            <span>&#10077;</span>
+            <p>
+              Atendimento excelente, resolveram o meu problema de forma imediata e o dinheiro caiu na conta antes do prazo esperado. Super recomendo, todas as vezes que preciso, estão prontos para me ajudar. Nota 10!!!
+            </p>
+          </div>
+          <div class="homeContainerSevenCardSocial">
+            <img src="../assets/images/icons8-facebook-novo-96.png" alt="logo face">
+            <a href="#">
+              Confira todas as avaliações
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="homeContainerSevenBg">
+        <div class="homeContainerSevenBgSpan">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="homeContainerSevenBgButton">
+          <button>
+            <img src="../assets/images/icons8-divisa-circulada-à-esquerda-50.png" alt="">
+          </button>
+          <button>
+            <img src="../assets/images/icons8-divisa-circulada-à-direita-50.png" alt="">
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- container 8 -->
+    <section class="containerHomeEigth">
+      <h2>
+        Perguntas frequentes:
+      </h2>
+
+        <!-- Quest1 -->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+            O que é Nellbux
+            <span class="dropdown-toggle"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><p class="dropdown-item">
+              NellBux é um BANCO digital de cripto investimentos, focado especialmente em pequenos investimentos, pagamos rentabilidade sobre os fundos de sua conta poupança. 
+            </p></li>
+          </ul>
+        </div>
+
+        <!-- Quest2 -->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+            No que especificamente a Nellbux trabalha?
+            <span class="dropdown-toggle"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><p class="dropdown-item">
+              Trabalhamos com cripto investimentos , especialmente seguros e empréstimos, remuneramos nossos correntistas com Renda Fixa acima da inflação todos os meses com toda segurança. 
+            </p></li>
+          </ul>
+        </div>
+
+        <!-- Quest3 -->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+            Quanto custa para se cadastrar?
+            <span class="dropdown-toggle"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><p class="dropdown-item" href="#">
+              Absolutamente NADA, o cadastro é totalmente GRATUITO, entretanto é necessário você adicionar um saldo de investimento.
+
+              Mas não se preocupe, o saldo é devolvido, pagamos juros em cima do seu dinheiro diariamente em sua conta poupança NellBux. 
+            </p></li>
+          </ul>
+        </div>
+
+        <!-- Quest4 -->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+            Por que é necessário adicionar saldo?
+            <span class="dropdown-toggle"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><p class="dropdown-item">
+            O saldo é aplicado como FORMA DE INVESTIMENTO para divulgar nossa marca
+
+            Durante esse tempo trabalhamos com seu dinheiro e PAGAMOS JUROS sobre fundos em sua conta poupança no NellBux.
+            </p></li>
+          </ul>
+        </div>
+
+        <!-- Quest5 -->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+            E antes do ciclo eu posso sacar?
+            <span class="dropdown-toggle"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><p class="dropdown-item">
+              Sim você pode sacar QUALQUER MOMENTO o montante total ou somente valor do JUROS, conforme for o seu progresso a sua RENTABILIDADE será maior.
+            </p></li>
+          </ul>
+        </div>
+
+        <!-- Quest6 -->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+            Eu quero trabalhar com NellBux como faço?
+            <span class="dropdown-toggle"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><p class="dropdown-item">
+              Há diversas formas de como conseguir ganhar uma RENDA EXTRA mensal com NELLBUX e as principais formas são:
+              
+              - Ganhando com tráfego de seu site ou blog com programa de afiliados , PAGAMOS por clique ou visualizações em anúncios
+              
+              - Indicando novos usuários através do seu link de indicado , PAGAMOS ATÉ 20% sobre os GANHOS de CADA indicado
+              
+              - Através de juros fazendo DEPÓSITOS em nosso sistema, com RENTABILIDADE de até 2% ao mês.
+              
+              Essas são as principais formas, há outras funções ocultas que são desbloqueadas de acordo com o progresso do usuário.
+            </p></li>
+          </ul>
+        </div>
+
+        <!-- Quest7 -->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+            O que é um indicado?
+            <span class="dropdown-toggle"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><p class="dropdown-item">
+              Indicado é a pessoa que se cadastrou em nosso sistema através de seu link ou banner de indicação.
+            </p></li>
+          </ul>
+        </div>
+
+        <!-- Quest8 -->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+            Como faço para indicar?
+            <span class="dropdown-toggle"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><p class="dropdown-item">
+              Após logar-se em sua página restrita, clique em "LISTA DE INDICADOS" e na parte superior terá o link de indicação de cada membro.
+              
+              Copie esse link e divulgue-o em qualquer lugar que desejar. Também poderá utilizar os banners personalizados (banners com seu link de indicação inserido).
+              
+              Você pode também inserir em sites, blogs, fóruns e redes sociais como Youtube, Twitter, Facebook, cada novo indicado registrado é contabilizado um valor pelo registro e pela porcentagem dos lucros dele em sua conta
+            </p></li>
+          </ul>
+        </div>
+
+        <!-- Quest9 -->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+            Quero me cadastrar agora, Quais as formas de pagamento são aceitas?
+            <span class="dropdown-toggle"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><p class="dropdown-item">
+              Trabalhamos com as principais bandeiras de cartões de créditos como Visa, Mastercard, Elo e Hipercard, além de boleto bancário, usamos também Mercado Pago e Paypal. 
+            </p></li>
+          </ul>
+        </div>
+
+        <!-- Quest10 -->
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary" data-bs-toggle="dropdown" aria-expanded="false">
+            Qual prazo de aprovação do pagamento?
+            <span class="dropdown-toggle"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><p class="dropdown-item">
+              Para pagamentos via boleto são confirmados no prazo de 1 dia útil, as demais formas são aprovadas automaticamente pelo sistema.
+              
+              Todas as transações realizadas no NellBux estão garantidas com um seguro avulso!
+              
+              Ainda Com Dúvidas?
+              Aguardamos seu contato via email: support@nellbux.com ou pelo Whatsapp
+            </p></li>
+          </ul>
+        </div>
+
+
+    </section>
+    
+    <footer class="footer">
+
+    </footer>
+  </main>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
