@@ -28,25 +28,28 @@
   <section class="containerLogin">
     <div class="containerContent">
       <div class="containerImgLogo">
-        <img class="ImgLogo marginBotton" src="assets/images/logo.png" alt="">
+        <a href="index.html">
+          <img class="ImgLogo marginBotton" src="assets/images/logo.png" alt="">
+        </a>
       </div>
       <h1 class="titleLogin marginBotton">Faça seu login</h1>
-      <form action="" method="get">
+
+      <form action="resume.html" method="get">
         <fieldset class="textLeft marginBotton">
           <legend>email</legend>
-          <input id="loginEmail" class="input" type="text" placeholder="Digite seu email">
+          <input required id="loginEmail" class="input" type="text" placeholder="Digite seu email">
           <img class="img" src="assets/images/Vector (2).png" alt="">
         </fieldset>
         <fieldset class="textLeft marginBotton">
           <legend>senha</legend>
-          <input id="loginPassword" class="input"  type="text" placeholder="Digite sua senha">
+          <input required id="loginPassword" class="input"  type="password" placeholder="Digite sua senha">
           <img class="img" src="assets/images/Vector (3).png" alt="">
         </fieldset>
         <div class="textRight marginBotton" >
           <a id="rememberPassword" class="textDecoration font" href="#">Esqueci minha senha</a>
         </div>
-        <button type="button" id="btnGetIn" class="btnLogin marginBotton">ENTRAR</button>
-        <p class="font">Não tem uma conta? <a id="createNow" class="textDecoration" href="#">Crie uma agora</a></p>
+        <button type="submit" id="btnGetIn" class="btnLogin marginBotton">ENTRAR</button>
+        <p class="font">Não tem uma conta? <a id="createNow" class="textDecoration" href="registerOne.html">Crie uma agora</a></p>
       </form>
     </div>
   </section>

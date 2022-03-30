@@ -2,6 +2,16 @@
   width: 20vw;
 }
 
+.displayNone {
+  display: none;
+}
+
+.displayMenssage {
+  display: inline;
+  margin: 0.5vw 0 1vw 0;
+  color: red;
+}
+
 .red {
   color: red;
   font-size: 0.8vw;
@@ -79,11 +89,17 @@
 .btnNext {
   align-items: center;
   background-color: #5283FF;
-  border: none;
   border-radius: 0.5vw;
-  color: white;
+  cursor: pointer;
   display: flex;
   padding: 1vw 2.5vw;
+}
+
+.btnNext input {
+  border: none;
+  background-color: #5283FF;
+  color: white;
+  cursor: pointer;
   font-size: 1vw;
   font-weight: 600;
 }
@@ -93,5 +109,10 @@
 }
 
 .return {
+  margin-top: 1vw;
+}
+
+.return a {
   color: black;
+  font-size: 1vw;
 }

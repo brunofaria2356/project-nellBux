@@ -2,6 +2,69 @@
  color: yellow;
 }
 
+.btnDownloadContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4vw;
+  width: 90%;
+}
+
+.btnDownload {
+  display: flex;
+  background: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.37);
+  padding: 0.5vw 1vw;
+  border-radius: 0.5vw;
+}
+
+.btnDownload img {
+  margin: auto;
+  width: 4vw;
+}
+
+.btnDownload div {
+  display: grid;
+  align-items: center;
+  text-align: left;
+  margin: 0.5vw 1vw;
+}
+
+.btnDownload div span {
+  color: white;
+  font-size: 0.8vw;
+  font-weight: 400;
+  margin: 0;
+}
+
+.btnDownload div p {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin: 0;
+}
+
+.style {
+  -webkit-appearance: unset;
+  background: #ffffff;
+  outline: none;
+  width: 100%;
+  height: 0.8vw;
+  border-radius: 5vw;
+}
+
+.style::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-radius: 50%; 
+  background: orange;
+  cursor: pointer;
+}
+
+
 .homeContainer {
   position: relative;
   top: 5vw;
@@ -40,15 +103,15 @@
   margin-top: 5vw;
   margin-right: 10vw;
   color: white;
-  width: 28vw;
+  width: 40vw;
 }
 
 .homeContainerHeroOne h1 {
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 .homeContainerHeroOne p {
-  font-size: 1vw;
+  font-size: 1.5vw;
   margin: 1vw 0;
 }
 

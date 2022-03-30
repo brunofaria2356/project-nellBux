@@ -19,7 +19,8 @@
       <div class="line marginBotton">
         <hr class="lineOne"><hr class="lineTwo">
       </div>
-      <form action="" method="get">
+
+      <form action="registerTwo.html" method="get">
         <fieldset class="textLeft marginBotton width">
           <legend>nome <span class="red">*</span></legend>
           <input required id="registerName" class="input" type="text" placeholder="Digite seu nome">
@@ -27,7 +28,7 @@
 
         <fieldset class="textLeft marginBotton width">
           <legend>email <span class="red">*</span></legend>
-          <input required id="registerEmail" class="input" type="email" placeholder="Digite seu email">
+          <input required id="registerEmail" class="input" type="email" value="" placeholder="Digite seu email">
         </fieldset>
 
         <fieldset class="textLeft marginBotton width">
@@ -39,19 +40,23 @@
           <legend> nascimento <span class="red">*</span> </legend>
           <input required data-mask="00/00/0000" id="registerBirth" class="input" type="text" placeholder="Digite sua data de nascimento DD/MM/AAAA">
         </fieldset>
+
+        <p class="marginBotton font">Campos marcados com <span class="red">*</span> são obrigatórios.</p>
+
+        <div class="displayFlex">
+          <label for="registerBtnNextRequest" class="btnNext">
+            <input type="submit" id="registerBtnNextRequest" value="PRÓXIMO PEDIDO">
+            <img class="marginImg" src="assets/images/Arrow 6.png" alt="">
+          </label>
+        </div>
+
       </form>
-      <p class="marginBotton font">Campos marcados com <span class="red">*</span> são obrigatórios.</p>
-      <div class="displayFlex">
-        <button id="registerBtnNextRequest" class="btnNext">
-          PRÓXIMO PEDIDO
-          <img class="marginImg" src="assets/images/Arrow 6.png" alt="">
-        </button>
-      </div>
     </div>
   </section>
 <!-- Atente-se para a ordem: primeiro jquery, depois locastyle, depois o JS do Bootstrap. -->
 <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//code.jquery.com/jquery-2.0.3.min.js"></script>
 <script type="text/javascript" src="//assets.locaweb.com.br/locastyle/2.0.6/javascripts/locastyle.js"></script>
 <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="assets/scrypts/register.js"></script>
 </body>
 </html>
